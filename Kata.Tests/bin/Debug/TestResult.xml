@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Maarten\Documents\Visual Studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.dll" total="31" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-03-02" time="19:39:44">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="MAARTENPC" user="Maarten" user-domain="MAARTENPC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Maarten\Documents\Visual Studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.dll" executed="True" result="Success" success="True" time="0.147" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Kata" executed="True" result="Success" success="True" time="0.131" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.131" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="StringCalculatorTests" executed="True" result="Success" success="True" time="0.129" asserts="0">
+                <results>
+                  <test-case name="Kata.Tests.StringCalculatorTests.Add_EmptyString_ReturnsZero" executed="True" result="Success" success="True" time="0.033" asserts="1" />
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbers_SumsThemUp" executed="True" result="Success" success="True" time="0.014" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbers_SumsThemUp(&quot;1,2,3,4,5&quot;,15)" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbers_SumsThemUp(&quot;1,2,3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbers_SumsThemUp(&quot;2,3,4,5,6&quot;,20)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbers_SumsThemUp(&quot;1,2,3,4&quot;,10)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbersWithCustomDelimiter_SumsThemUp" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiter_SumsThemUp(&quot;//a\n1a2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiter_SumsThemUp(&quot;//;\n1;2;3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiter_SumsThemUp(&quot;//;\n1;2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiter_SumsThemUp(&quot;//5\n152&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbersWithCustomDelimiterWithAnyLength_SumsThemUp" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiterWithAnyLength_SumsThemUp(&quot;//[**]\n1**2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiterWithAnyLength_SumsThemUp(&quot;//[*1*]\n1*1*2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiterWithAnyLength_SumsThemUp(&quot;//[***]\n1***2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbersWithMultipleCustomDelimiters_SumsThemUp" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimiters_SumsThemUp(&quot;//[*][%][^][-]\n1*2%3^4-5&quot;,15)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimiters_SumsThemUp(&quot;//[*][%][^]\n1*2%3^4&quot;,10)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimiters_SumsThemUp(&quot;//[*][%]\n1*2%3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbersWithMultipleCustomDelimitersWithAnyLength_SumsThemUp" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimitersWithAnyLength_SumsThemUp(&quot;//[**][%]\n1**2%3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimitersWithAnyLength_SumsThemUp(&quot;//[***][%%][^]\n1***2%%3^4&quot;,10)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_MultipleNumbersWithNewLineDelimiter_SumsThemUp" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithNewLineDelimiter_SumsThemUp(&quot;1\n2,3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithNewLineDelimiter_SumsThemUp(&quot;1\n2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithNewLineDelimiter_SumsThemUp(&quot;1\n2\n3&quot;,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_NegativeNumber_ThrowsException" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NegativeNumber_ThrowsException(&quot;-1&quot;)" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NegativeNumber_ThrowsException(&quot;-1, -2, -3&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NegativeNumber_ThrowsException(&quot;-1, -2&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_NumbersGreaterThanThousand_IgnoresThemInSum" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NumbersGreaterThanThousand_IgnoresThemInSum(&quot;1,2,1001,1002&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NumbersGreaterThanThousand_IgnoresThemInSum(&quot;1,1001,1002&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NumbersGreaterThanThousand_IgnoresThemInSum(&quot;1001&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_NumbersGreaterThanThousand_IgnoresThemInSum(&quot;1,1001&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_SingleNumber_ReturnsThatNumber" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_SingleNumber_ReturnsThatNumber(&quot;1&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_SingleNumber_ReturnsThatNumber(&quot;2&quot;,2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Add_TwoNumbers_SumsThemUp" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_TwoNumbers_SumsThemUp(&quot;1,2&quot;,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="Kata.Tests.StringCalculatorTests.Add_TwoNumbers_SumsThemUp(&quot;2,3&quot;,5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

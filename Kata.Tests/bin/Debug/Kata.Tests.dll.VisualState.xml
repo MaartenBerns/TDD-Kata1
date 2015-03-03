@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1042]C:\Users\Maarten\Documents\Visual Studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]Kata.Tests.StringCalculatorTests</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1042]C:\Users\Maarten\Documents\Visual Studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1043]Kata" Expanded="true" />
+    <Node UniqueName="[0-1044]Kata.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]Kata.Tests.StringCalculatorTests" Expanded="true" />
+    <Node UniqueName="[0-1008]Kata.Tests.StringCalculatorTests.Add_MultipleNumbers_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1017]Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiter_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1031]Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithCustomDelimiterWithAnyLength_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1035]Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimiters_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1039]Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithMultipleCustomDelimitersWithAnyLength_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1013]Kata.Tests.StringCalculatorTests.Add_MultipleNumbersWithNewLineDelimiter_SumsThemUp" Expanded="true" />
+    <Node UniqueName="[0-1022]Kata.Tests.StringCalculatorTests.Add_NegativeNumber_ThrowsException" Expanded="true" />
+    <Node UniqueName="[0-1026]Kata.Tests.StringCalculatorTests.Add_NumbersGreaterThanThousand_IgnoresThemInSum" Expanded="true" />
+    <Node UniqueName="[0-1002]Kata.Tests.StringCalculatorTests.Add_SingleNumber_ReturnsThatNumber" Expanded="true" />
+    <Node UniqueName="[0-1005]Kata.Tests.StringCalculatorTests.Add_TwoNumbers_SumsThemUp" Expanded="true" />
+  </Nodes>
+</VisualState>

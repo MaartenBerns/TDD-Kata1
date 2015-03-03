@@ -1,0 +1,7 @@
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\obj\Debug\Kata.Tests.csprojResolveAssemblyReference.cache
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.dll
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\Kata.Tests.pdb
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\nunit.framework.dll
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\bin\Debug\nunit.framework.xml
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\obj\Debug\Kata.Tests.dll
+c:\users\maarten\documents\visual studio 2012\Projects\Kata.Tests\Kata.Tests\obj\Debug\Kata.Tests.pdb
